@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    
     // Typing Effect
     const textElement = document.querySelector('.typing-text');
     const words = ["Developer", "Designer", "Problem Solver"];
