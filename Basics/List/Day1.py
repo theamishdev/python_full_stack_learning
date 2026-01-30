@@ -1,4 +1,4 @@
-#LIST Learning 
+#LIST Learning(Mutable) 
 print(dir(list))
 a=[1,2,3]
 print(id(a))
@@ -39,3 +39,9 @@ e.sort(reverse=True)           #descending
 print(e)
 e.sort(reverse=False)          #ascending
 print(e)
+
+list1=[1,23,4,53,56]
+print(max(list1))
+list1.reverse()
+print(list1)
+print(min(list1))
