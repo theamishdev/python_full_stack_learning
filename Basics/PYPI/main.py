@@ -14,6 +14,6 @@ def doc_help():
     for removing <,>,/
     and a doc function
     """
-    print(__doc__)
+    #print(__doc__)
 
 
