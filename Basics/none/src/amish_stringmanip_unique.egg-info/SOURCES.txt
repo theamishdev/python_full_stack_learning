@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/amish_stringmanip_unique.egg-info/PKG-INFO
+src/amish_stringmanip_unique.egg-info/SOURCES.txt
+src/amish_stringmanip_unique.egg-info/dependency_links.txt
+src/amish_stringmanip_unique.egg-info/top_level.txt
+src/none1/__init__.py
+src/none1/main.py
+src/none1/test.py
