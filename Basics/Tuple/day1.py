@@ -6,5 +6,5 @@ print(min(tuple1))
 print(sum(tuple1))
 d=tuple1[:5]                            #index slicing
 print(d)
-e=tuple1[-1:]
+e=tuple1[::-1]                          #reverse
 print(e)
