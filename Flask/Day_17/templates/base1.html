@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Flask App{% endblock %}</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .error-box {
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            display: inline-block;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    {% block content %}{% endblock %}
+
+</body>
+</html>

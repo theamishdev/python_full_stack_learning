@@ -1,0 +1,53 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card p-4 shadow">
+    <form method="POST">
+
+        <div class="mb-3">
+            <label for="input_name" class="form-label">Username</label>
+            <input type="text"
+                   class="form-control"
+                   id="input_name"
+                   name="input_name"
+                   required>
+        </div>
+
+        <div class="mb-3">
+            <label for="input_email" class="form-label">Email</label>
+            <input type="email"
+                   class="form-control"
+                   id="input_email"
+                   name="input_email"
+                   required>
+        </div>
+
+        <div class="mb-3">
+            <label for="input_password" class="form-label">Password</label>
+            <input type="password"
+                   class="form-control"
+                   id="input_password"
+                   name="input_password"
+                   required>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">
+            Sign In
+        </button>
+
+    </form>
+</div>
+
+{% if name %}
+<hr>
+<div class="alert alert-success mt-4">
+    <h5>Submitted Data:</h5>
+    <p><strong>Name:</strong> {{ name }}</p>
+    <p><strong>Email:</strong> {{ email }}</p>
+    <p><strong>Password:</strong> {{ password }}</p>
+</div>
+{% endif %}
+
+{% endblock %}
