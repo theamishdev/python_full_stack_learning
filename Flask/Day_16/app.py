@@ -55,10 +55,6 @@
 
 # if __name__ == "__main__":
 #     app.run(debug=True, port=8000)
-
-
-
-
 from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
@@ -93,8 +89,6 @@ def home():
         password=password,
         error=error
     )
-
-
 @app.route("/dashboard")
 def dashboard():
     return render_template("dashboard.html")
